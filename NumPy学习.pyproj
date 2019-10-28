@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>507983f9-06db-4a4c-bba6-dc63f4de1530</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>NumPy学习.py</StartupFile>
+    <StartupFile>菜鸟教程\4.一维数组.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,23 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="NumPy学习.py" />
+    <Content Include="菜鸟教程\1.Ndarray对象.py">
+      <SubType>Code</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="菜鸟教程\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="菜鸟教程\2.NumPy数组属性.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="菜鸟教程\3.创建数组.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="菜鸟教程\4.一维数组.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
