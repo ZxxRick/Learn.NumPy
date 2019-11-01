@@ -11,6 +11,7 @@
     <OutputPath>.</OutputPath>
     <Name>NumPy学习</Name>
     <RootNamespace>NumPy学习</RootNamespace>
+    <TestFramework>Pytest</TestFramework>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -57,6 +58,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="菜鸟教程\.9排序、条件刷选.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="菜鸟教程\11.线性代数计算.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
